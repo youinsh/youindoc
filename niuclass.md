@@ -1,6 +1,6 @@
 ## 访问地址
 线上： https://niuclass.qiniuapi.com
-测试： https://niuclass-api.qiniu.io
+测试： https://api-niuclass.qiniu.io
 
 ## 鉴权
 ```
