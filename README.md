@@ -3,9 +3,9 @@
 测试： https://live.test.youinsh.cn
 
 ## 访问密钥
-app_id:	KJWqw87KJHH9h9hjkl
+app_id:	xxxxx
 
-app_secret:	O232ewJU7Gi6HIweJwerwe983wwe2we3nwekfew
+app_secret:	xxxxx
 
 ## 鉴权
 ```
