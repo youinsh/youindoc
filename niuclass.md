@@ -179,4 +179,18 @@ http code 500
     "message": "create organization failed",
     "code": "INTERNAL_SERVER_ERROR"
 }
-``
+```
+
+
+## 登出
+```
+POST /user/oauth_login_out/?next=xxx
+```
+### 参数
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|`next`|`string`|否|登出地址|
+
+### 返回
+
+返回授权地址
