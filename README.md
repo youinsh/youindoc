@@ -107,7 +107,7 @@ HTTP CODE 200
 
 ## 登出
 ```
-POST /user/oauth_login_out/?next=xxx
+GET /user/oauth_login_out/?next=xxx
 ```
 ### 参数
 |名称|类型|是否必须|描述|
