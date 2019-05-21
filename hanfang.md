@@ -86,6 +86,35 @@ avatar：用户头像
 ```
 
 
+##通过课程id获取lencloud房间的roomid
+
+### 会议系统--获取课程房间roomid
+```
+GET /api/v1/course/get_room_id/{{id}}/
+```
+#### 参数
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|`id`|`int`|是|课程id|
+
+##### 请求示例
+```json
+/api/v1/course/get_room_id/{{id}}/
+
+Content-Type: application/json
+Authorization: jwt {{token}}
+```
+#### 返回
+```json
+{
+    "code": 200,
+    "msg": "success",
+    "result": {
+        "room_id": "xxx"    //房间roomid
+    }
+}
+```
+
 ## 当接受请求后，pc端web调用下面接口重定向到有因互动系统
 
 ### 会议系统--有因渠道方web端用户跳转播放
