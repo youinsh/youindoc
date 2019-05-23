@@ -86,31 +86,29 @@ avatar：用户头像
 ```
 
 
-##通过课程id获取lencloud房间的roomid
-
-### 会议系统--获取课程房间roomid
+### 会议系统--获取课程房间roomid和room_token
 ```
-GET /api/v1/course/get_room_id/{{id}}/
+POST /api/webrtc/room_token/
 ```
 #### 参数
 |名称|类型|是否必须|描述|
 |----|----|----|----|
-|`id`|`int`|是|课程id|
+|`room_id`|`string`|是|课程id|
+|`username`|`string`|是|用户昵称|
 
 ##### 请求示例
 ```json
-/api/v1/course/get_room_id/{{id}}/
-
+/api/webrtc/room_token/
 Content-Type: application/json
-Authorization: jwt {{token}}
 ```
 #### 返回
 ```json
 {
-    "code": 200,
     "msg": "success",
+    "code": 200,
     "result": {
-        "room_id": "xxx"    //房间roomid
+        "room_token": "QPGXe0XBk9CMOcwmeYL_wr0YmpOtsch0JUTZ4j_q:kHPF0fVLSS6l2Qa87V8YQiXtA4s=:eyJwZXJtaXNzaW9uIjogInVzZXIiLCAiYXBwSWQiOiAiZHAwNzR5ZDI1IiwgInJvb21OYW1lIjogIjg3NzgiLCAidXNlcklkIjogInRldHMiLCAiZXhwaXJlQXQiOiAxNTU4NTgzMzU0fQ==",
+        "leancloud_id": "5cde5aa117b54d0071f7468f"
     }
 }
 ```
