@@ -245,238 +245,166 @@ Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ### 返回
 ```json
 {
-    "code": 200,
-    "msg": "success",
     "result": {
-        "id": 11,//问卷id
+        "id": 23,//问卷id
         "title": "test1",//问卷标题
-        "owner_user": 2,//创建者id
-        "answer_type": "one",//答题类型模式，one：一题提交一次，many：所有一起提交
-        "createDate": "2019-09-11T11:15:23.612451",
-        "active": "active",//是否激活
-        "enterprise": 4,//所属企业id
-        "course": 36,//问卷所属直播id
-        "questions_show_list": [
+        "owner_user": 2,//创建者
+        "answer_type": "one",//答题方式
+        "createDate": "2019-09-16T17:59:44.341630",
+        "active": "active",//是否允许使用
+        "enterprise": 4,//所属企业
+        "course": 36,//所属课程
+        "questions_show_list": [//问卷题目
             {
-                "id": 22,//题目id
-                "question_type": "single",//题目类型
-                "question_text": "单选题目",//问题内容
+                "id": 42,//题目id
+                "question_type": "single",//单选类型
+                "question_text": "单选",//问题题目
                 "description": null,
-                "questionnaire": 11,//所属问卷id
-                "sort_no": 1,//提目排序，越小越靠前
-                "required": true,//是否是必填题
-                "score": 10,//此题目设置的分数
+                "questionnaire": 23,//所属问卷
+                "sort_no": 1,//排序越小越靠前
+                "required": false,//是否必填
+                "score": 10,//此题目分数
                 "english_text": null,
-                "answered_yet": true,//此题目当前用户是否已经提交过答案
-                "options": [//选择题的选项
+                "answered_yet": true,//此题目是否已经解答
+                "options": [//题目的选项
                     {
-                        "id": 26,//选项id
-                        "question": 22,//所属题目id
-                        "content": "1",//选项的内容
+                        "id": 77,//选项id
+                        "question": 42,//所属题目
+                        "content": "a",//选项内容
                         "description": "",
                         "is_correct": true,//是否是正确答案
-                        "sort_no": 1//排序
+                        "sort_no": 1,//排序越小越前
+                        "is_answer": true//此选项本人的解答都是选过
                     },
                     {
-                        "id": 27,
-                        "question": 22,
-                        "content": "2",
+                        "id": 78,
+                        "question": 42,
+                        "content": "b",
                         "description": "",
                         "is_correct": false,
-                        "sort_no": 2
+                        "sort_no": 2,
+                        "is_answer": false
                     },
                     {
-                        "id": 28,
-                        "question": 22,
-                        "content": "3",
+                        "id": 79,
+                        "question": 42,
+                        "content": "c",
                         "description": "",
                         "is_correct": false,
-                        "sort_no": 3
+                        "sort_no": 3,
+                        "is_answer": false
+                    },
+                    {
+                        "id": 80,
+                        "question": 42,
+                        "content": "d",
+                        "description": "",
+                        "is_correct": false,
+                        "sort_no": 4,
+                        "is_answer": false
                     }
                 ]
             },
             {
-                "id": 23,
+                "id": 43,
                 "question_type": "multiple",
-                "question_text": "多选题目",
+                "question_text": "多选题",
                 "description": null,
-                "questionnaire": 11,
+                "questionnaire": 23,
                 "sort_no": 2,
-                "required": true,
+                "required": false,
                 "score": 20,
                 "english_text": null,
                 "answered_yet": true,
                 "options": [
                     {
-                        "id": 29,
-                        "question": 23,
-                        "content": "1",
+                        "id": 81,
+                        "question": 43,
+                        "content": "aa",
                         "description": "",
                         "is_correct": true,
-                        "sort_no": 1
+                        "sort_no": 1,
+                        "is_answer": false
                     },
                     {
-                        "id": 30,
-                        "question": 23,
-                        "content": "2",
+                        "id": 82,
+                        "question": 43,
+                        "content": "bb",
                         "description": "",
                         "is_correct": true,
-                        "sort_no": 2
+                        "sort_no": 2,
+                        "is_answer": true
                     },
                     {
-                        "id": 31,
-                        "question": 23,
-                        "content": "3",
+                        "id": 83,
+                        "question": 43,
+                        "content": "cc",
                         "description": "",
                         "is_correct": false,
-                        "sort_no": 3
+                        "sort_no": 3,
+                        "is_answer": true
                     },
                     {
-                        "id": 32,
-                        "question": 23,
-                        "content": "4",
+                        "id": 84,
+                        "question": 43,
+                        "content": "dd",
                         "description": "",
                         "is_correct": false,
-                        "sort_no": 4
+                        "sort_no": 4,
+                        "is_answer": false
                     }
                 ]
             },
             {
-                "id": 24,
+                "id": 44,
                 "question_type": "judgment",
-                "question_text": "判断题目",
+                "question_text": "判断题",
                 "description": null,
-                "questionnaire": 11,
+                "questionnaire": 23,
                 "sort_no": 3,
-                "required": true,
+                "required": false,
                 "score": 15,
                 "english_text": null,
                 "answered_yet": true,
                 "options": [
                     {
-                        "id": 33,
-                        "question": 24,
+                        "id": 85,
+                        "question": 44,
                         "content": "对",
                         "description": "",
                         "is_correct": true,
-                        "sort_no": 1
+                        "sort_no": 1,
+                        "is_answer": true
                     },
                     {
-                        "id": 34,
-                        "question": 24,
+                        "id": 86,
+                        "question": 44,
                         "content": "错",
                         "description": "",
                         "is_correct": false,
-                        "sort_no": 2
+                        "sort_no": 2,
+                        "is_answer": false
                     }
                 ]
             },
             {
-                "id": 28,
+                "id": 45,
                 "question_type": "short_answer",
-                "question_text": "简答",
+                "question_text": "简答题",
                 "description": null,
-                "questionnaire": 11,
+                "questionnaire": 23,
                 "sort_no": 4,
                 "required": false,
                 "score": 0,
                 "english_text": null,
-                "answered_yet": false,
+                "answered_yet": true,
+                "is_answer": "简答题答案",
                 "options": []
             }
         ]
-    }
-}
-```
-
-
-## 问卷--答题提交
-```
-POST  /api/v1/questionnaires/create_multiple/
-```
-### 参数
-
-|名称|类型|是否必须|描述|
-|----|----|----|----|
-|questionnaire_id|`int`|是|问卷的id|
-|question_id|`int`|是|题目的id|
-|option_id|`int`|否|当为选择题，此参数带入，为选择项的id|
-|response_option_text|`str`|否|当为简答题。此参数带入，为答案内容|
-
-#### 请求示例
-```json
-POST  /api/v1/questionnaires/create_multiple/
-
-Content-Type: application/json
-{
-    "questionnaire_id": 12,
-    "response": [
-        {
-            "response_option_text":"简答题",
-=            "question_id": 28
-        },
-        {
-            "option_id": 41,
-            "question_id": 27
-        }
-    ]
-}
-```
-### 返回
-```json
-{
-    "code": 200,
+    },
     "msg": "success",
-    "result": {}
-}
-
-```
-
-## 问卷--统计答题人员
-```
-GET /api/v1/questionnaires/result_list/{{id}}/
-```
-
-### 参数
-
-|名称|类型|是否必须|描述|
-|----|----|----|----|
-|`id`|`int`|是|问卷id|
-
-#### 请求示例
-
-```json
-GET /api/v1/questionnaires/result_list/{{id}}/
-
-Content-Type: application/json
-```
-### 返回
-
-```json
-{
-    "result": [
-        {
-            "user": 2,//答题用户有因id
-            "course": 36,//问卷关联的直播id
-            "questionnaire": 19,//问卷id
-            "score": 50,//得分
-            "ip": "127.0.0.1",
-            "time_spent": 0,
-            "createDate": "2019-09-11T17:55:20.109207",
-            "city": "未知",
-            "user_info": {
-                "name": "测试账号",//答题人昵称
-                "image": "https://avatar-static.segmentfault.com/282/265/2822652919-59bde0b93fa3d_big64",//头像
-                "enterprise_id": 4,//所属企业
-                "oath_user_id": null//平南方对应用户id
-            }
-        }
-    ],
-    "code": 200,
-    "msg": "success",
-    "previous": null,
-    "count": 1,
-    "next": null
+    "code": 200
 }
 ```
 
