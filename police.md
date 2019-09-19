@@ -6,6 +6,38 @@
 
 
 
+## 获取当前平均分以及评分人数
+```
+GET /api/v1/course/result_socre/{{id}}/
+```
+### 参数
+
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|id|`int`|是|直播的id|
+
+#### 请求示例
+
+```json
+GET /api/v1/course/result_socre/{{id}}/
+
+Content-Type: application/json
+
+Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+### 返回
+```json
+{
+    "result": {
+        "socre_avg": 3.2,   //平均分
+        "socre_count": 5    //总评分的人数
+    },
+    "msg": "success",
+    "code": 200
+}
+```
+
 ## 获取当前用户是否已经评分
 ```
 GET /api/v1/course/socre/{{id}}/
