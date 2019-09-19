@@ -33,7 +33,7 @@ Content-Type: application/json
     "code": 200,
     "result": {}
 }
-
+```
 
 ## 获取当前平均分以及评分人数
 ```
