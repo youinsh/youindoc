@@ -5,6 +5,35 @@
 测试地址:https://live.test2.youinsh.cn
 
 
+## 文档启用，弃用回调接口
+```
+POST  /api/v1/course/contain_document/{{id}}/
+```
+### 参数
+
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|id|`str`|是|直播的id|
+|doc|`int`|是|是否使用文档，0:弃用文档包括删除，不在前端显示，1:启用文档|
+
+
+#### 请求示例
+```json
+POST  /api/v1/course/contain_document/{{id}}/
+
+Content-Type: application/json
+{
+    "doc":1,
+}
+```
+### 返回
+```json
+{
+    "msg": "success",
+    "code": 200,
+    "result": {}
+}
+
 
 ## 获取当前平均分以及评分人数
 ```
