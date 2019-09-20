@@ -35,6 +35,83 @@ Content-Type: application/json
 }
 ```
 
+
+## 获取文档浏览地址
+```
+GET /api/v1/course/document_url/{{id}}/
+```
+### 参数
+
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|id|`int`|是|直播的id|
+
+#### 请求示例
+
+```json
+GET /api/v1/course/document_url/{{id}}/
+
+Content-Type: application/json
+
+Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+### 返回
+```json
+{
+    "result": {
+        "doc_url":"wdqdq"//文档嵌入地址
+    },
+    "msg": "success",
+    "code": 200
+}
+```
+
+
+
+## 获取分局各个系统回调的域名地址
+```
+GET /api/v1/course/back_url/{{id}}/
+```
+### 参数
+
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|id|`int`|是|直播的id|
+
+#### 请求示例
+
+```json
+GET /api/v1/course/back_url/{{id}}/
+
+Content-Type: application/json
+
+Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+### 返回
+```json
+{
+    "result": {
+        "id": 1,
+        "channel_uid": "3873c12ed50d11e9887f881fa100a65e",//渠道id
+        "channel_name": "静安分局",//渠道名称
+        "back_url": "http://15.75.4.236:8080/pingnan/youinlive/udtlivestatus.php",//推流回调地址
+        "user_info_url": "http://15.75.4.236:8080/pingnan/youinlive/userinfo.php",//获取用户信息请求地址
+        "stoplive_url": "",//停止推流回调地址
+        "livetoreplay_url": "http://15.75.4.236:8080/pingnan/youinlive/livetoreplay.php",//生成录播回调地址
+        "back_domain": null,//回调的域名地址
+        "doc_url": null,//获取文档接口
+        "create_time": "2019-09-12T11:27:17.017360",
+        "enterprise": 4//所属企业
+    },
+    "code": 200,
+    "msg": "success"
+}
+```
+
+
+
 ## 获取tab页的统计数据接口
 ```
 GET /api/v1/analysis/po_stattistics/{{id}}/
