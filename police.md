@@ -35,6 +35,40 @@ Content-Type: application/json
 }
 ```
 
+## 获取tab页的统计数据接口
+```
+GET /api/v1/analysis/po_stattistics/{{id}}/
+```
+### 参数
+
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|id|`int`|是|直播的id|
+
+#### 请求示例
+
+```json
+GET /api/v1/analysis/po_stattistics/{{id}}/
+
+Content-Type: application/json
+
+Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+### 返回
+```json
+{
+    "result": {
+        "que_count": 0, //问卷答题人数
+        "check_in_count": 89,//签到人数
+        "chat_count": 88,//聊天人数
+        "watch_count": 128//直播观众
+    },
+    "msg": "success",
+    "code": 200
+}
+```
+
 ## 获取当前平均分以及评分人数
 ```
 GET /api/v1/course/result_socre/{{id}}/
@@ -276,8 +310,13 @@ Content-Type: application/json
 {
     "code": 200,
     "msg": "success",
-    "result": {}
-}
+    "result": {
+                    "77": 0,//选项的人数
+                    "78": 1,
+                    "79": 0,
+                    "80": 0,
+                    "all_count": 1//总数
+                }
 
 ```
 
@@ -364,7 +403,14 @@ Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                         "sort_no": 4,
                         "is_answer": false
                     }
-                ]
+                ],
+                "result_count": {
+                    "77": 0,
+                    "78": 1,
+                    "79": 0,
+                    "80": 0,
+                    "all_count": 1
+                }
             },
             {
                 "id": 43,
@@ -414,7 +460,15 @@ Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                         "sort_no": 4,
                         "is_answer": false
                     }
-                ]
+                ],
+                "result_count": {
+                    "81": 0,
+                    "82": 1,
+                    "83": 0,
+                    "84": 0,
+                    "all_count": 1
+                }
+
             },
             {
                 "id": 44,
@@ -446,7 +500,12 @@ Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                         "sort_no": 2,
                         "is_answer": false
                     }
-                ]
+                ],
+                "result_count": {
+                    "85": 0,
+                    "86": 1,
+                    "all_count": 1
+                }
             },
             {
                 "id": 45,
@@ -460,7 +519,10 @@ Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                 "english_text": null,
                 "answered_yet": true,
                 "is_answer": "简答题答案",
-                "options": []
+                "options": [],
+                "result_count": {
+                    "all_count": 1
+                }
             }
         ]
     },
