@@ -135,14 +135,15 @@ Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ### 返回
 ```json
 {
-    "result": {
-        "que_count": 0, //问卷答题人数
-        "check_in_count": 89,//签到人数
-        "chat_number": 88,//聊天人数
-        "watch_count": 128//直播观众
-    },
     "msg": "success",
-    "code": 200
+    "code": 200,
+    "result": {
+        "que_count": 0,//问卷答题人数
+        "check_in_count": 89,//签到人数
+        "watch_count": 128,//观众人数
+        "chat_number": 5,//聊天总数
+        "user_count": 2//聊天人数
+    }
 }
 ```
 
