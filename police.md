@@ -61,7 +61,7 @@ Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     "result": {
         "que_count": 0, //问卷答题人数
         "check_in_count": 89,//签到人数
-        "chat_count": 88,//聊天人数
+        "chat_number": 88,//聊天人数
         "watch_count": 128//直播观众
     },
     "msg": "success",
