@@ -87,126 +87,154 @@
   - [参数](#%E5%8F%82%E6%95%B0-20)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-20)
   - [返回](#%E8%BF%94%E5%9B%9E-20)
-- [文档-设置文档为当前频道使用](#%E6%96%87%E6%A1%A3-%E8%AE%BE%E7%BD%AE%E6%96%87%E6%A1%A3%E4%B8%BA%E5%BD%93%E5%89%8D%E9%A2%91%E9%81%93%E4%BD%BF%E7%94%A8)
+- [文档-删除文档](#%E6%96%87%E6%A1%A3-%E5%88%A0%E9%99%A4%E6%96%87%E6%A1%A3)
   - [参数](#%E5%8F%82%E6%95%B0-21)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-21)
   - [返回](#%E8%BF%94%E5%9B%9E-21)
-- [文档-设置文档当前所在页码](#%E6%96%87%E6%A1%A3-%E8%AE%BE%E7%BD%AE%E6%96%87%E6%A1%A3%E5%BD%93%E5%89%8D%E6%89%80%E5%9C%A8%E9%A1%B5%E7%A0%81)
+- [文档-设置文档为当前频道使用](#%E6%96%87%E6%A1%A3-%E8%AE%BE%E7%BD%AE%E6%96%87%E6%A1%A3%E4%B8%BA%E5%BD%93%E5%89%8D%E9%A2%91%E9%81%93%E4%BD%BF%E7%94%A8)
   - [参数](#%E5%8F%82%E6%95%B0-22)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-22)
   - [返回](#%E8%BF%94%E5%9B%9E-22)
-- [文档-根据文档id获取文档详细信息](#%E6%96%87%E6%A1%A3-%E6%A0%B9%E6%8D%AE%E6%96%87%E6%A1%A3id%E8%8E%B7%E5%8F%96%E6%96%87%E6%A1%A3%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF)
+- [文档-设置文档当前所在页码](#%E6%96%87%E6%A1%A3-%E8%AE%BE%E7%BD%AE%E6%96%87%E6%A1%A3%E5%BD%93%E5%89%8D%E6%89%80%E5%9C%A8%E9%A1%B5%E7%A0%81)
   - [参数](#%E5%8F%82%E6%95%B0-23)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-23)
   - [返回](#%E8%BF%94%E5%9B%9E-23)
-- [统计-查看观看量](#%E7%BB%9F%E8%AE%A1-%E6%9F%A5%E7%9C%8B%E8%A7%82%E7%9C%8B%E9%87%8F)
+- [文档-根据文档id获取文档详细信息](#%E6%96%87%E6%A1%A3-%E6%A0%B9%E6%8D%AE%E6%96%87%E6%A1%A3id%E8%8E%B7%E5%8F%96%E6%96%87%E6%A1%A3%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF)
   - [参数](#%E5%8F%82%E6%95%B0-24)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-24)
   - [返回](#%E8%BF%94%E5%9B%9E-24)
-- [统计-增加浏览量](#%E7%BB%9F%E8%AE%A1-%E5%A2%9E%E5%8A%A0%E6%B5%8F%E8%A7%88%E9%87%8F)
+- [统计-查看观看量](#%E7%BB%9F%E8%AE%A1-%E6%9F%A5%E7%9C%8B%E8%A7%82%E7%9C%8B%E9%87%8F)
   - [参数](#%E5%8F%82%E6%95%B0-25)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-25)
   - [返回](#%E8%BF%94%E5%9B%9E-25)
-- [统计-点赞数量](#%E7%BB%9F%E8%AE%A1-%E7%82%B9%E8%B5%9E%E6%95%B0%E9%87%8F)
+- [统计-增加浏览量](#%E7%BB%9F%E8%AE%A1-%E5%A2%9E%E5%8A%A0%E6%B5%8F%E8%A7%88%E9%87%8F)
   - [参数](#%E5%8F%82%E6%95%B0-26)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-26)
   - [返回](#%E8%BF%94%E5%9B%9E-26)
-- [统计-增加点赞次数](#%E7%BB%9F%E8%AE%A1-%E5%A2%9E%E5%8A%A0%E7%82%B9%E8%B5%9E%E6%AC%A1%E6%95%B0)
+- [统计-点赞数量](#%E7%BB%9F%E8%AE%A1-%E7%82%B9%E8%B5%9E%E6%95%B0%E9%87%8F)
   - [参数](#%E5%8F%82%E6%95%B0-27)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-27)
   - [返回](#%E8%BF%94%E5%9B%9E-27)
-- [分享-web页面分享生成图片](#%E5%88%86%E4%BA%AB-web%E9%A1%B5%E9%9D%A2%E5%88%86%E4%BA%AB%E7%94%9F%E6%88%90%E5%9B%BE%E7%89%87)
+- [统计-增加点赞次数](#%E7%BB%9F%E8%AE%A1-%E5%A2%9E%E5%8A%A0%E7%82%B9%E8%B5%9E%E6%AC%A1%E6%95%B0)
   - [参数](#%E5%8F%82%E6%95%B0-28)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-28)
   - [返回](#%E8%BF%94%E5%9B%9E-28)
-- [分享-首页页面分享生成图片参数，前端需组成图片](#%E5%88%86%E4%BA%AB-%E9%A6%96%E9%A1%B5%E9%A1%B5%E9%9D%A2%E5%88%86%E4%BA%AB%E7%94%9F%E6%88%90%E5%9B%BE%E7%89%87%E5%8F%82%E6%95%B0%E5%89%8D%E7%AB%AF%E9%9C%80%E7%BB%84%E6%88%90%E5%9B%BE%E7%89%87)
+- [分享-web页面分享生成图片](#%E5%88%86%E4%BA%AB-web%E9%A1%B5%E9%9D%A2%E5%88%86%E4%BA%AB%E7%94%9F%E6%88%90%E5%9B%BE%E7%89%87)
   - [参数](#%E5%8F%82%E6%95%B0-29)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-29)
   - [返回](#%E8%BF%94%E5%9B%9E-29)
-- [观看页-观看页面所需数据](#%E8%A7%82%E7%9C%8B%E9%A1%B5-%E8%A7%82%E7%9C%8B%E9%A1%B5%E9%9D%A2%E6%89%80%E9%9C%80%E6%95%B0%E6%8D%AE)
+- [分享-首页页面分享生成图片参数，前端需组成图片](#%E5%88%86%E4%BA%AB-%E9%A6%96%E9%A1%B5%E9%A1%B5%E9%9D%A2%E5%88%86%E4%BA%AB%E7%94%9F%E6%88%90%E5%9B%BE%E7%89%87%E5%8F%82%E6%95%B0%E5%89%8D%E7%AB%AF%E9%9C%80%E7%BB%84%E6%88%90%E5%9B%BE%E7%89%87)
   - [参数](#%E5%8F%82%E6%95%B0-30)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-30)
   - [返回](#%E8%BF%94%E5%9B%9E-30)
-- [系统后台首页-频道控制页面功能开关设置](#%E7%B3%BB%E7%BB%9F%E5%90%8E%E5%8F%B0%E9%A6%96%E9%A1%B5-%E9%A2%91%E9%81%93%E6%8E%A7%E5%88%B6%E9%A1%B5%E9%9D%A2%E5%8A%9F%E8%83%BD%E5%BC%80%E5%85%B3%E8%AE%BE%E7%BD%AE)
+- [观看页-观看页面所需数据](#%E8%A7%82%E7%9C%8B%E9%A1%B5-%E8%A7%82%E7%9C%8B%E9%A1%B5%E9%9D%A2%E6%89%80%E9%9C%80%E6%95%B0%E6%8D%AE)
   - [参数](#%E5%8F%82%E6%95%B0-31)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-31)
   - [返回](#%E8%BF%94%E5%9B%9E-31)
-- [频道装修权限--获取后台用户到频道装修权限](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE%E6%9D%83%E9%99%90--%E8%8E%B7%E5%8F%96%E5%90%8E%E5%8F%B0%E7%94%A8%E6%88%B7%E5%88%B0%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE%E6%9D%83%E9%99%90)
+- [系统后台首页-频道控制页面功能开关设置](#%E7%B3%BB%E7%BB%9F%E5%90%8E%E5%8F%B0%E9%A6%96%E9%A1%B5-%E9%A2%91%E9%81%93%E6%8E%A7%E5%88%B6%E9%A1%B5%E9%9D%A2%E5%8A%9F%E8%83%BD%E5%BC%80%E5%85%B3%E8%AE%BE%E7%BD%AE)
   - [参数](#%E5%8F%82%E6%95%B0-32)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-32)
   - [返回](#%E8%BF%94%E5%9B%9E-32)
-- [频道装修-获取主题信息](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%8E%B7%E5%8F%96%E4%B8%BB%E9%A2%98%E4%BF%A1%E6%81%AF)
+- [频道装修权限--获取后台用户到频道装修权限](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE%E6%9D%83%E9%99%90--%E8%8E%B7%E5%8F%96%E5%90%8E%E5%8F%B0%E7%94%A8%E6%88%B7%E5%88%B0%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE%E6%9D%83%E9%99%90)
   - [参数](#%E5%8F%82%E6%95%B0-33)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-33)
   - [返回](#%E8%BF%94%E5%9B%9E-33)
-- [频道装修-设置主题](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%AE%BE%E7%BD%AE%E4%B8%BB%E9%A2%98)
+- [频道装修-播放页logo。页脚数据获取](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E6%92%AD%E6%94%BE%E9%A1%B5logo%E9%A1%B5%E8%84%9A%E6%95%B0%E6%8D%AE%E8%8E%B7%E5%8F%96)
   - [参数](#%E5%8F%82%E6%95%B0-34)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-34)
   - [返回](#%E8%BF%94%E5%9B%9E-34)
-- [频道装修-获取引导图信息](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%8E%B7%E5%8F%96%E5%BC%95%E5%AF%BC%E5%9B%BE%E4%BF%A1%E6%81%AF)
+- [频道装修-播放页logo/页脚数据修改](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E6%92%AD%E6%94%BE%E9%A1%B5logo%E9%A1%B5%E8%84%9A%E6%95%B0%E6%8D%AE%E4%BF%AE%E6%94%B9)
   - [参数](#%E5%8F%82%E6%95%B0-35)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-35)
   - [返回](#%E8%BF%94%E5%9B%9E-35)
-- [频道装修-引导图新建，或修改](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E5%BC%95%E5%AF%BC%E5%9B%BE%E6%96%B0%E5%BB%BA%E6%88%96%E4%BF%AE%E6%94%B9)
+- [频道装修-获取引导图信息](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%8E%B7%E5%8F%96%E5%BC%95%E5%AF%BC%E5%9B%BE%E4%BF%A1%E6%81%AF)
   - [参数](#%E5%8F%82%E6%95%B0-36)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-36)
   - [返回](#%E8%BF%94%E5%9B%9E-36)
-- [频道装修-直播剩余开始时间](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E7%9B%B4%E6%92%AD%E5%89%A9%E4%BD%99%E5%BC%80%E5%A7%8B%E6%97%B6%E9%97%B4)
+- [频道装修-引导图新建，或修改](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E5%BC%95%E5%AF%BC%E5%9B%BE%E6%96%B0%E5%BB%BA%E6%88%96%E4%BF%AE%E6%94%B9)
   - [参数](#%E5%8F%82%E6%95%B0-37)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-37)
   - [返回](#%E8%BF%94%E5%9B%9E-37)
-- [频道装修-直播剩余开始时间 新建或者修改](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E7%9B%B4%E6%92%AD%E5%89%A9%E4%BD%99%E5%BC%80%E5%A7%8B%E6%97%B6%E9%97%B4-%E6%96%B0%E5%BB%BA%E6%88%96%E8%80%85%E4%BF%AE%E6%94%B9)
+- [频道装修-直播剩余开始时间](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E7%9B%B4%E6%92%AD%E5%89%A9%E4%BD%99%E5%BC%80%E5%A7%8B%E6%97%B6%E9%97%B4)
   - [参数](#%E5%8F%82%E6%95%B0-38)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-38)
   - [返回](#%E8%BF%94%E5%9B%9E-38)
-- [频道装修-观看人数统计显示](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%A7%82%E7%9C%8B%E4%BA%BA%E6%95%B0%E7%BB%9F%E8%AE%A1%E6%98%BE%E7%A4%BA)
+- [频道装修-直播剩余开始时间 新建或者修改](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E7%9B%B4%E6%92%AD%E5%89%A9%E4%BD%99%E5%BC%80%E5%A7%8B%E6%97%B6%E9%97%B4-%E6%96%B0%E5%BB%BA%E6%88%96%E8%80%85%E4%BF%AE%E6%94%B9)
   - [参数](#%E5%8F%82%E6%95%B0-39)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-39)
   - [返回](#%E8%BF%94%E5%9B%9E-39)
-- [频道装修-直播观看人数 新建或者修改](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E7%9B%B4%E6%92%AD%E8%A7%82%E7%9C%8B%E4%BA%BA%E6%95%B0-%E6%96%B0%E5%BB%BA%E6%88%96%E8%80%85%E4%BF%AE%E6%94%B9)
+- [频道装修-观看人数统计显示](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%A7%82%E7%9C%8B%E4%BA%BA%E6%95%B0%E7%BB%9F%E8%AE%A1%E6%98%BE%E7%A4%BA)
   - [参数](#%E5%8F%82%E6%95%B0-40)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-40)
   - [返回](#%E8%BF%94%E5%9B%9E-40)
-- [频道装修-封面图片获取](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87%E8%8E%B7%E5%8F%96)
+- [频道装修-直播观看人数 新建或者修改](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E7%9B%B4%E6%92%AD%E8%A7%82%E7%9C%8B%E4%BA%BA%E6%95%B0-%E6%96%B0%E5%BB%BA%E6%88%96%E8%80%85%E4%BF%AE%E6%94%B9)
   - [参数](#%E5%8F%82%E6%95%B0-41)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-41)
   - [返回](#%E8%BF%94%E5%9B%9E-41)
-- [频道装修-封面图 新建或者修改](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E5%B0%81%E9%9D%A2%E5%9B%BE-%E6%96%B0%E5%BB%BA%E6%88%96%E8%80%85%E4%BF%AE%E6%94%B9)
+- [频道装修-封面图片获取](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87%E8%8E%B7%E5%8F%96)
   - [参数](#%E5%8F%82%E6%95%B0-42)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-42)
   - [返回](#%E8%BF%94%E5%9B%9E-42)
-- [频道装修-播放水印信息获取](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E6%92%AD%E6%94%BE%E6%B0%B4%E5%8D%B0%E4%BF%A1%E6%81%AF%E8%8E%B7%E5%8F%96)
+- [频道装修-封面图 新建或者修改](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E5%B0%81%E9%9D%A2%E5%9B%BE-%E6%96%B0%E5%BB%BA%E6%88%96%E8%80%85%E4%BF%AE%E6%94%B9)
   - [参数](#%E5%8F%82%E6%95%B0-43)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-43)
   - [返回](#%E8%BF%94%E5%9B%9E-43)
-- [频道装修-播放器水印 新建或者修改](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E6%92%AD%E6%94%BE%E5%99%A8%E6%B0%B4%E5%8D%B0-%E6%96%B0%E5%BB%BA%E6%88%96%E8%80%85%E4%BF%AE%E6%94%B9)
+- [频道装修-播放水印信息获取](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E6%92%AD%E6%94%BE%E6%B0%B4%E5%8D%B0%E4%BF%A1%E6%81%AF%E8%8E%B7%E5%8F%96)
   - [参数](#%E5%8F%82%E6%95%B0-44)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-44)
   - [返回](#%E8%BF%94%E5%9B%9E-44)
-- [频道装修-微信公众号二维码信息](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81%E4%BF%A1%E6%81%AF)
+- [频道装修-播放器水印 新建或者修改](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E6%92%AD%E6%94%BE%E5%99%A8%E6%B0%B4%E5%8D%B0-%E6%96%B0%E5%BB%BA%E6%88%96%E8%80%85%E4%BF%AE%E6%94%B9)
   - [参数](#%E5%8F%82%E6%95%B0-45)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-45)
   - [返回](#%E8%BF%94%E5%9B%9E-45)
-- [频道装修-微信公众号二维码 新建或者修改](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81-%E6%96%B0%E5%BB%BA%E6%88%96%E8%80%85%E4%BF%AE%E6%94%B9)
+- [频道装修-微信公众号二维码信息](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81%E4%BF%A1%E6%81%AF)
   - [参数](#%E5%8F%82%E6%95%B0-46)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-46)
   - [返回](#%E8%BF%94%E5%9B%9E-46)
-- [频道装修-自定义菜单栏获取信息](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95%E6%A0%8F%E8%8E%B7%E5%8F%96%E4%BF%A1%E6%81%AF)
+- [频道装修-微信公众号二维码 新建或者修改](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81-%E6%96%B0%E5%BB%BA%E6%88%96%E8%80%85%E4%BF%AE%E6%94%B9)
   - [参数](#%E5%8F%82%E6%95%B0-47)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-47)
   - [返回](#%E8%BF%94%E5%9B%9E-47)
-- [频道装修-自定义菜单新建](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95%E6%96%B0%E5%BB%BA)
+- [频道装修-自定义菜单栏获取信息](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95%E6%A0%8F%E8%8E%B7%E5%8F%96%E4%BF%A1%E6%81%AF)
   - [参数](#%E5%8F%82%E6%95%B0-48)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-48)
   - [返回](#%E8%BF%94%E5%9B%9E-48)
-- [频道装修-自定义菜单 修改](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95-%E4%BF%AE%E6%94%B9)
+- [频道装修-自定义菜单新建](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95%E6%96%B0%E5%BB%BA)
   - [参数](#%E5%8F%82%E6%95%B0-49)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-49)
   - [返回](#%E8%BF%94%E5%9B%9E-49)
-- [频道装修-自定义菜单 删除](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95-%E5%88%A0%E9%99%A4)
+- [频道装修-自定义菜单 修改](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95-%E4%BF%AE%E6%94%B9)
   - [参数](#%E5%8F%82%E6%95%B0-50)
     - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-50)
   - [返回](#%E8%BF%94%E5%9B%9E-50)
+- [频道装修-自定义菜单 删除](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95-%E5%88%A0%E9%99%A4)
+  - [参数](#%E5%8F%82%E6%95%B0-51)
+    - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-51)
+  - [返回](#%E8%BF%94%E5%9B%9E-51)
+- [频道装修-自定义菜单 排序](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95-%E6%8E%92%E5%BA%8F)
+  - [参数](#%E5%8F%82%E6%95%B0-52)
+    - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-52)
+  - [返回](#%E8%BF%94%E5%9B%9E-52)
+- [频道装修-自定义广告获取频道广告设置](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%87%AA%E5%AE%9A%E4%B9%89%E5%B9%BF%E5%91%8A%E8%8E%B7%E5%8F%96%E9%A2%91%E9%81%93%E5%B9%BF%E5%91%8A%E8%AE%BE%E7%BD%AE)
+  - [参数](#%E5%8F%82%E6%95%B0-53)
+    - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-53)
+  - [返回](#%E8%BF%94%E5%9B%9E-53)
+- [频道装修-自定义广告-新建或者修改](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%87%AA%E5%AE%9A%E4%B9%89%E5%B9%BF%E5%91%8A-%E6%96%B0%E5%BB%BA%E6%88%96%E8%80%85%E4%BF%AE%E6%94%B9)
+  - [参数](#%E5%8F%82%E6%95%B0-54)
+    - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-54)
+  - [返回](#%E8%BF%94%E5%9B%9E-54)
+- [频道装修-自定义广告 删除](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%87%AA%E5%AE%9A%E4%B9%89%E5%B9%BF%E5%91%8A-%E5%88%A0%E9%99%A4)
+  - [参数](#%E5%8F%82%E6%95%B0-55)
+    - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-55)
+  - [返回](#%E8%BF%94%E5%9B%9E-55)
+- [频道装修-获取现有问卷信息](#%E9%A2%91%E9%81%93%E8%A3%85%E4%BF%AE-%E8%8E%B7%E5%8F%96%E7%8E%B0%E6%9C%89%E9%97%AE%E5%8D%B7%E4%BF%A1%E6%81%AF)
+  - [参数](#%E5%8F%82%E6%95%B0-56)
+    - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-56)
+  - [返回](#%E8%BF%94%E5%9B%9E-56)
+- [后台首页-搜索排序](#%E5%90%8E%E5%8F%B0%E9%A6%96%E9%A1%B5-%E6%90%9C%E7%B4%A2%E6%8E%92%E5%BA%8F)
+  - [参数](#%E5%8F%82%E6%95%B0-57)
+    - [请求示例](#%E8%AF%B7%E6%B1%82%E7%A4%BA%E4%BE%8B-57)
+  - [返回](#%E8%BF%94%E5%9B%9E-57)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -840,18 +868,22 @@ Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
             "video_id": "07b9082a-8d59-4513-b810-488c1083eb88",     //频道唯一标识
             "title": "测试第2个",   //标题
             "video_image": "https://newtestcdn.youinsh.cn/staging/static/3.jpg",//封面图片
+            "channel_icon":"http://sss.png",//频道图标
             "start_time":"2019-08-08T12:12:00",  //开始时间
             "browse_real_count": 10, //总观看人数
-            "video_status": "直播还未开始"
+            "video_status": "直播还未开始",
+            "active":1          //频道状态1:开启，2:关闭，3:删除
         },
         {
             "id": 5,
             "video_id": "e74181a9-0d9a-41b3-be36-a099f41c2d9a",
             "title": "这是第3个",
             "video_image": "https://newtestcdn.youinsh.cn/staging/static/3.jpg",
+            "channel_icon":"http://sss.png",//频道图标
             "start_time": null,
             "browse_real_count": 10,
-            "video_status": "直播还未开始"
+            "video_status": "直播还未开始",
+            "active":1          //频道状态1:开启，2:关闭，3:删除
         }
     ],
     "count": 6
@@ -1046,12 +1078,14 @@ Content-Type: application/json
 {
     "title": "修改标题",            //修改标题，
     "video_image": "static/3.jpg",//修改封面图oss路径
+    "start_time":"2019-09-20 12:12",//开始时间
     "show_chat": 1,                 //是否显示聊天页面 1是，0否
     "show_document": 1,             //是否显示文档1，0
     "document_download": 1,         //文档是否允许下载1，0
     "document_turn": 0,             //文档是否允许翻页1，0
     "show_index_watch": 1,          //是否允许观看1，0
-    "view_count_show": 1            //是否显示观看人数1，0
+    "view_count_show": 1,            //是否显示观看人数1，0
+    "active":1                      //1,开启频道，2:关闭频道，3:删除频道
 }
 ```
 ### 返回
@@ -1157,6 +1191,37 @@ Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
             "in_use": false
         }
     ]
+}
+```
+
+
+## 文档-删除文档
+```
+POST /api/v2/course/doc/del_file/{{id}}/
+```
+### 参数
+
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|id|`int`|是|文档id|
+|active|`int`|否|1：显示，0:删除|
+
+#### 请求示例
+```json
+POST /api/v2/course/doc/del_file/{{id}}/
+
+可以不带入参数active，不带参数默认为删除
+Content-Type: application/json
+{
+    "active":0
+}
+```
+### 返回
+```json
+{
+    "code": 200,
+    "msg": "success",
+    "result": {}
 }
 ```
 
@@ -1500,6 +1565,7 @@ Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
         "document_turn": false,                 //文档是否允许翻页
         "show_index_watch": true,//是否可以让用户观看
         "view_count_show": true,//是否显示观看量数据
+        "active": 2,            //此频道状态1:开启，2:关闭，3:删除
         "themesettings": {  //主题内容
             "video_logo": "static/logo/enterprise_logo.png",//企业logo地址
             "watch_background_image": "static/logo/background.png",//观看页背景图地址
@@ -2133,7 +2199,7 @@ Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
-## 频道装修-获取主题信息
+## 频道装修-播放页logo。页脚数据获取
 ```
 GET /api/v2/decoration/theme/info/{{id}}/
 ```
@@ -2165,13 +2231,14 @@ Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
         "video_logo": "static/test.jpg",//企业logo图片地址
         "watch_background_image": "static/bg.jpg",//观看页背景图地址
         "footer_info": "着是个页脚1111",//页脚信息
+        "footer_image": "https://newtestcdn.youinsh.cn/staging/static/logo/foot_image.jpg",//页脚图片
         "create_time": "2019-08-15T16:01:30.956201"//创建时间
     }
 }
 ```
 
 
-## 频道装修-设置主题
+## 频道装修-播放页logo/页脚数据修改
 ```
 POST /api/v2/decoration/theme/edit/
 ```
@@ -2181,8 +2248,9 @@ POST /api/v2/decoration/theme/edit/
 |----|----|----|----|
 |course|`str`|是|频道id|
 |video_logo|`str`|否|频道logo|
-|watch_background_image|`str`|否|观看页背景图|
+|footer_info|`str`|否|页脚图片|
 |footer_info|`str`|否|页脚说明|
+
 
 
 #### 请求示例
@@ -2193,7 +2261,7 @@ Content-Type: application/json
 {
 	"course":"10",
     "video_logo": "static/test.jpg",
-    "watch_background_image": "static/bg.jpg",
+    "footer_info": "static/bg.jpg",
     "footer_info": "着是个页脚"
 }
 ```
@@ -2209,6 +2277,7 @@ Content-Type: application/json
         "video_logo": "static/test.jpg",
         "watch_background_image": "static/bg.jpg",
         "footer_info": "着是个页脚",
+        "footer_image": "https://newtestcdn.youinsh.cn/staging/static/logo/foot_image.jpg",
         "create_time": "2019-08-15T16:01:30.956201"
     }
 }
@@ -2504,7 +2573,8 @@ Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     "msg": "success",
     "code": 200,
     "result": {
-        "video_image": "https://newtestcdn.youinsh.cn/staging/static/enterprsie/2/fwefewf.jpg"//图片地址
+        "video_image": "https://newtestcdn.youinsh.cn/staging/static/enterprsie/2/fwefewf.jpg",//图片地址
+        "channel_icon":"https"//频道图标
     }
 }
 ```
@@ -2520,6 +2590,7 @@ POST /api/v2/decoration/videoimage/edit/
 |----|----|----|----|
 |course|`str`|是|频道id|
 |video_image|`str`|否|图片oss路径|
+|channel_icon|`str`|否|图片oss路径|
 
 ```
 如若为新建，则所有参数都必须有，
@@ -2533,7 +2604,9 @@ POST /api/v2/decoration/videoimage/edit/
 Content-Type: application/json
 {
     "course": "10",
-    "video_image": "static/enterprsie/2/dssdwdwd.jpg"
+    "video_image": "static/enterprsie/2/dssdwdwd.jpg",
+    "channel_icon":"ssss"
+    
 }
 ```
 ### 返回
@@ -2542,7 +2615,8 @@ Content-Type: application/json
     "msg": "success",
     "code": 200,
     "result": {
-        "video_image": "https://newtestcdn.youinsh.cn/staging/static/enterprsie/2/fwefewf.jpg"//图片地址
+        "video_image": "https://newtestcdn.youinsh.cn/staging/static/enterprsie/2/fwefewf.jpg",//图片地址
+        "channel_icon":""
     }
 }
 ```
@@ -2894,5 +2968,430 @@ Content-Type: application/json
     "code": 200,
     "msg": "success",
     "result": {}
+}
+```
+
+
+## 频道装修-自定义菜单 排序
+```
+POST /api/v2/decoration/custommenu/sort/
+```
+### 参数
+
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|id|`int`|是|获取到到自定义菜单的id|
+|sort|`int`|是|排序值，正整形，越小越靠前|
+
+#### 请求示例
+```json
+POST /api/v2/decoration/custommenu/sort/
+
+Content-Type: application/json
+
+```
+### 返回
+```json
+[
+    {
+        "id": 3,//菜单id
+        "sort": 1//菜单排序值，越小越靠前
+    },
+    {
+        "id": 4,
+        "sort": 3
+    },
+    {
+        "id": 5,
+        "sort": 2
+    }
+]
+```
+
+
+
+## 频道装修-自定义广告获取频道广告设置
+```
+GET /api/v2/decoration/advertisement/info/{{id}}/
+```
+### 参数
+
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|id|`int`|是|频道id|
+
+#### 请求示例
+
+```json
+GET /api/v2/decoration/advertisement/info/{{id}}/
+
+Content-Type: application/json
+
+Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+### 返回
+```json
+{
+    "result": [
+        {
+            "id": 16,   //广告id
+            "adv_type": "mobile",//广告显示端，mobilde:手机广告,pc:web广告
+            "adv_position": "top",//广告位置，top：顶部，center：中部
+            "show_type": "text",//广告类型，text：显示文字，image：显示图片
+            "adv_name": "test3wwwww",//显示的文字内容
+            "adv_image": null,//显示的图片地址
+            "hyperlink_url": "https://baidu.com",//超链接店址
+            "sort":1,//排序
+            "create_time": "2019-08-26T11:36:15.287772"//新建时间
+        },
+        {
+            "id": 17,
+            "adv_type": "mobile",
+            "adv_position": "top",
+            "show_type": "text",
+            "adv_name": "test4",
+            "adv_image": null,
+            "hyperlink_url": "https://baidu.com",
+            "sort":2,//排序
+            "create_time": "2019-08-26T11:36:15.289044"
+        },
+        {
+            "id": 18,
+            "adv_type": "mobile",
+            "adv_position": "top",
+            "show_type": "image",
+            "adv_name": null,
+            "adv_image": "https://newtestcdn.youinsh.cn/staging/static/kjwefjkew/kwjenf.jpg",
+            "hyperlink_url": "https://baidu.com",
+            "sort":3,//排序
+            "create_time": "2019-08-26T11:36:15.290254"
+        }
+    ],
+    "msg": "success",
+    "code": 200
+}
+```
+
+
+## 频道装修-自定义广告-新建或者修改
+```
+POST /api/v2/decoration/advertisement/update/
+```
+### 参数
+
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|course|`str`|是|频道id|
+|adv_type|`str`|是|广告类型，手机：mobile，电脑：pc|
+|adv_name|`str`|是|文字广告的文字内容|
+|adv_image|`str`|是|图片广告的图片地址|
+|adv_position|`str`|是|广告位置，top：顶部。center：中间|
+|show_type|`str`|是|文字还是图片，text:文字，image:图片|
+|hyperlink_url|`str`|是|超链接地址|
+|sort|`str`|排序||
+```
+广告搜索出来当所有广告都应该带入参数。
+旧的已经存在都广告都必须有id这个参数，
+新建的广告不需要id
+当前频道有多少个广告带入多少个字典
+```
+
+#### 请求示例
+```json
+POST /api/v2/decoration/advertisement/update/
+
+Content-Type: application/json
+[
+    {
+    	"id":16,// 广告id，有此参数此广告已经存在，作为修改
+        "course": "10", //频道id
+        "adv_type": "mobile",//广告是手机还是web，参数固定为mobile或者pc
+        "adv_position": "top",//广告位置参数，top或者center
+        "show_type": "text",//广告类型文字还是图片，text或者image
+        "adv_name": "test3wwwww",//如果是文字，文字广告内容
+        "adv_image":"xxx",//图片广告地址
+        "hyperlink_url": "https://baidu.com",//图片广告图片oss地址
+        "sort":1,//排序越小越靠前
+    },
+    {
+        "course": "10", //频道id
+        "adv_type": "mobile",//广告是手机还是web，参数固定为mobile或者pc
+        "adv_position": "top",//广告位置参数，top或者center
+        "show_type": "text",//广告类型文字还是图片，text或者image
+        "adv_name": "test3wwwww",//如果是文字，文字广告内容
+        "adv_image":"xxx",//图片广告地址
+        "hyperlink_url": "https://baidu.com",//图片广告图片oss地址
+        "sort":1,//排序越小越靠前
+    }
+    
+]
+```
+### 返回
+```json
+{
+    "code": 200,
+    "msg": "success",
+    "result": {
+    }
+}
+```
+
+
+
+
+## 频道装修-自定义广告 删除
+```
+POST /api/v2/decoration/advertisement/del/{{id}}
+```
+### 参数
+
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|id|`str`|是|获取到到自定义广告的id|
+
+#### 请求示例
+```json
+POST /api/v2/decoration/advertisement/del/{{id}}
+
+Content-Type: application/json
+
+```
+### 返回
+```json
+{
+    "code": 200,
+    "msg": "success",
+    "result": {}
+}
+```
+
+
+
+
+## 频道装修-获取现有问卷信息
+```
+GET /api/v2/decoration/questionnaire/info/{{id}}/
+```
+### 参数
+
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|id|`int`|是|频道id|
+
+#### 请求示例
+
+```json
+GET /api/v2/decoration/questionnaire/info/{{id}}/
+
+Content-Type: application/json
+
+Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+### 返回
+```json
+{
+    "result": {
+        "id": 8,    //问卷id
+        "course": "10",//频道id
+        "enterprise": "2",//企业id
+        "show_active": true,//是否显示
+        "que_position": "before",//显示在观看页前还是观看页ining：观看页，before：观看页前
+        "image": "https://newtestcdn.youinsh.cn/staging/static/xiugai.jpg",//图片地址
+        "name": "测试问卷修改",//问卷名称
+        "description": "修改后",//问卷描述
+        "questionnairecontent": [//问卷内容
+            {
+                "id": 13,//内容id
+                "questionnaire": "8",//所属问卷id
+                "show_type": "name",//内容类别，name：昵称，tel：手机，text_one：单行文字，text_mul：多行文字
+                "nickname": "昵称修改",//当类型为昵称，此属性有数据，昵称显示名字
+                "tel": null,//当类型为手机，此属性显示手机好吗
+                "send_code": 0,//当类型为手机，此属性是否发送验证码
+                "sms_alerts": 0,//当类型为手机，此属性是否短信提醒
+                "sms_start_time": null,//当类型为手机，设置开始时间
+                "sms_time_min": 0,//当类型为手机，开始前几分钟提醒
+                "content": null,//当类型为单行文字，文字内容
+                "multiline": null,//当类型为多行文字，文字内容
+                "must_fill": 0,//是否必填
+                "sort": 0,//排序
+                "create_time": "2019-08-28T10:47:39.286339"
+            },
+            {
+                "id": 14,
+                "questionnaire": "8",
+                "show_type": "tel",
+                "nickname": null,
+                "tel": "123232222",
+                "send_code": 1,
+                "sms_alerts": 1,
+                "sms_start_time": "2019-10-22T12:12:00",
+                "sms_time_min": 6,
+                "content": null,
+                "multiline": null,
+                "must_fill": 1,
+                "sort": 0,
+                "create_time": "2019-08-28T10:47:39.312104"
+            },
+            {
+                "id": 15,
+                "questionnaire": "8",
+                "show_type": "text_one",
+                "nickname": null,
+                "tel": null,
+                "send_code": 0,
+                "sms_alerts": 0,
+                "sms_start_time": null,
+                "sms_time_min": 0,
+                "content": "修改",
+                "multiline": null,
+                "must_fill": 0,
+                "sort": 0,
+                "create_time": "2019-08-28T10:47:39.336815"
+            },
+            {
+                "id": 16,
+                "questionnaire": "8",
+                "show_type": "text_mul",
+                "nickname": null,
+                "tel": null,
+                "send_code": 0,
+                "sms_alerts": 0,
+                "sms_start_time": null,
+                "sms_time_min": 0,
+                "content": null,
+                "multiline": "改改改",
+                "must_fill": 0,
+                "sort": 0,
+                "create_time": "2019-08-28T10:47:39.361684"
+            }
+        ],
+        "questionnairemultiplechoice": [//问卷内容，问答题和选择题
+            {
+                "id": 7,//内容id
+                "questionnaire": "8",//所属问卷
+                "show_type": "choice",//类型，choice：选择题，answer：问答题
+                "must_fill": 0,//是否必填
+                "essay_name": null,//当类型为问答题，问答题题目
+                "choice_name": "修改选择",//当类型为选择题，题目内容
+                "allow_text": 1,//当类型为选择题，是否允许自己填答案
+                "choice_type": "multiple",//当类型为选择题，single：单选题，multiple：多选题
+                "answerquestion": [//当类型为选择提，
+                    {
+                        "id": 10,//选择题选项id
+                        "choice_title": "A",//选项名称
+                        "choice_name": "aaa"//选项内容
+                    },
+                    {
+                        "id": 11,
+                        "choice_title": "B",
+                        "choice_name": "bbb"
+                    },
+                    {
+                        "id": 12,
+                        "choice_title": "C",
+                        "choice_name": "cbb"
+                    },
+                    {
+                        "id": 17,
+                        "choice_title": "D",
+                        "choice_name": "d"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "questionnaire": "8",
+                "show_type": "answer",
+                "must_fill": 0,
+                "essay_name": "问答题目修改",
+                "choice_name": null,
+                "allow_text": 0,
+                "choice_type": "single",
+                "answerquestion": []
+            },
+            {
+                "id": 12,
+                "questionnaire": "8",
+                "show_type": "answer",
+                "must_fill": 0,
+                "essay_name": "问答题目新建",
+                "choice_name": null,
+                "allow_text": 0,
+                "choice_type": "single",
+                "answerquestion": []
+            }
+        ]
+    },
+    "msg": "success",
+    "code": 200
+}
+```
+
+
+## 后台首页-搜索排序
+```
+GET /api/v2/search/system/video/?q={{xxx}}&sort=默认排序
+```
+### 参数
+
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|q|`str`|否|搜索的关键字|
+|sort|`str`|否|默认排序|
+
+#### 请求示例
+
+```json
+GET /api/v2/search/system/video/?q={{xxx}}&sort=默认排序
+
+q为搜索关键字可以为空，sort排序规则，默认排序，累计观看时长，累计观看人次，直播开始时间，直播结束时间
+
+Content-Type: application/json
+
+Authorization: jwt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+### 返回
+```json
+{
+    "previous": null,
+    "next": null,
+    "msg": "success",
+    "code": 200,
+    "count": 9,
+    "result": [
+        {
+            "id": 12,
+            "video_id": "43db5ce6bf3e11e9ae17881fa100a65e",
+            "title": "修改标题",
+            "video_image": "https://newtestcdn.youinsh.cn/staging/static/3.jpg",
+            "channel_icon": "https://newtestcdn.youinsh.cn/staging/static/logo/channel_icon.png",
+            "active": 1,
+            "start_time": "2019-09-09T12:12:00",
+            "end_time": "",
+            "browse_real_count": 0,
+            "video_status": {
+                "status": "live_wait",
+                "live_status": "直播未开始"
+            }
+        },
+        {
+            "id": 11,
+            "video_id": "3357df76bf3311e98902881fa100a65e",
+            "title": "这是第1个",
+            "video_image": "https://newtestcdn.youinsh.cn/staging/static/3.jpg",
+            "channel_icon": "https://newtestcdn.youinsh.cn/staging/static/logo/channel_icon.png",
+            "active": 1,
+            "start_time": "暂未设置",
+            "end_time": "",
+            "browse_real_count": 0,
+            "video_status": {
+                "status": "live_wait",
+                "live_status": "直播未开始"
+            }
+        }
+    ]
 }
 ```
