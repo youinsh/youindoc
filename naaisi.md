@@ -45,6 +45,55 @@ get重定向到观看页面直接跳转到直播页面，且用户与纳爱斯�
 
 
 
+## 鉴权--获取用户token访问接口权限
+
+```
+POST /api/v1/system/auth-token/
+```
+### 参数
+
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|app_id`|`string`|是|渠道商在youin的账户使用接口权限的appid|
+|app_secret`|`string`|是|渠道商在youin账户使用接口权限的的密码|
+
+#### 请求示例
+
+```json
+
+POST /api/v1/system/auth-token/
+Content-Type: application/json
+
+{
+    "app_id": "",
+    "app_secret": ""
+}
+
+```
+
+### 返回
+
+返回的结果是 jwt token, 解析出来会有一个过期时间，如果过期了，那么渠道商需要重新鉴权。
+
+在后面的每次请求都需要带上这个 jwt token，放在 header 里面里面：
+
+```
+Authorization: jwt {{token}}
+```
+
+```json
+
+{
+    "code": 200,
+    "msg": "success",
+    "result": {
+        "exprise_time": 1545485899,
+        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjFAMS5jb20iLCJleHAiOjE1NDU0ODU4OTksInVzZXJfaWQiOjkxLCJlbWFpbCI6IiJ9._0eD1FHGwPXY4VqYHRlRk4Kx8_768S1KhW-7XNUrd3c"
+    }
+}
+
+```
+
 
 ## 直播数据统计
 ```
