@@ -109,6 +109,13 @@ GET /api/v1/analysis/nicesys/watch_detail/{{id}}/?page=xx&size=xx
 
 #### 请求示例
 
+```json
+
+POST /api/v1/analysis/nicesys/watch_detail/{{id}}/?page=1&size=10
+
+Content-Type: application/json
+
+```
 ### 返回
 ```
 {
