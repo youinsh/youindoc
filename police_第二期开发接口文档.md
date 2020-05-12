@@ -238,64 +238,76 @@ GET  /api/v1/analysis/police_analysis/{{id}}/
 ### 返回
 ```json
 {
-    "msg": "success",
+    "code": 200,
     "result": {
         "chat_users": 10,//聊天人数
-        "chat_number": 10,//聊天次数
-        "que_list_count": 10,//答题人数
-        "avg_socre": 76.5//平均得分
+        "chat_number": 10,//聊天数
+        "avg_socre": 76.5,//答题平均分
+        "respondents_count": 10,//答题人数
+        "user_socre": [
+            {
+                "id": 870,
+                "user": 13328,//答题用户有因id
+                "score": 20,//得分
+                "createDate": "2020-04-24T14:17:58.258471"
+            },
+            {
+                "id": 871,
+                "user": 11551,
+                "score": 100,
+                "createDate": "2020-04-24T14:21:48.105995"
+            },
+            {
+                "id": 872,
+                "user": 264,
+                "score": 60,
+                "createDate": "2020-04-24T14:33:12.734543"
+            },
+            {
+                "id": 873,
+                "user": 6975,
+                "score": 50,
+                "createDate": "2020-04-24T14:33:41.770245"
+            },
+            {
+                "id": 874,
+                "user": 5628,
+                "score": 110,
+                "createDate": "2020-04-24T15:00:32.269405"
+            },
+            {
+                "id": 875,
+                "user": 14058,
+                "score": 110,
+                "createDate": "2020-04-24T15:00:59.591716"
+            },
+            {
+                "id": 876,
+                "user": 3155,
+                "score": 35,
+                "createDate": "2020-04-24T15:08:19.498575"
+            },
+            {
+                "id": 877,
+                "user": 13833,
+                "score": 65,
+                "createDate": "2020-04-24T15:12:06.238440"
+            },
+            {
+                "id": 878,
+                "user": 8147,
+                "score": 110,
+                "createDate": "2020-04-27T15:23:09.271174"
+            },
+            {
+                "id": 898,
+                "user": 13481,
+                "score": 105,
+                "createDate": "2020-05-01T12:01:52.222336"
+            }
+        ]
     },
-    "code": 200
+    "msg": "success"
 }
 ```
 
-
-## 直播用户统计数据---平南-直播用户统计
-```
-GET  /api/v1/questionnaires/user_socre/{{id}}/
-```
-### 参数
-
-|名称|类型|是否必须|描述|
-|----|----|----|----|
-|id|`str`|是|直播id|
-
-### 返回
-```json
-{
-    "code": 200,
-    "msg": "success",
-    "result": [
-        {
-            "id": 870,
-            "user": 13328,//有因端用户id
-            "score": 20,//得分
-            "createDate": "2020-04-24T14:17:58.258471"//做题时间
-        },
-        {
-            "id": 871,
-            "user": 11551,
-            "score": 100,
-            "createDate": "2020-04-24T14:21:48.105995"
-        },
-        {
-            "id": 872,
-            "user": 264,
-            "score": 60,
-            "createDate": "2020-04-24T14:33:12.734543"
-        },
-        {
-            "id": 873,
-            "user": 6975,
-            "score": 50,
-            "createDate": "2020-04-24T14:33:41.770245"
-        },
-        {
-            "id": 874,
-            "user": 5628,
-            "score": 110,
-            "createDate": "2020-04-24T15:00:32.269405"
-        }
-    ]
-}
-```
