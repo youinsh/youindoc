@@ -222,3 +222,80 @@ Content-Type: application/json
     "result": {}
 }
 ```
+
+
+
+## 直播统计数据---平南-直播统计
+```
+GET  /api/v1/analysis/police_analysis/{{id}}/
+```
+### 参数
+
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|id|`str`|是|直播id|
+
+### 返回
+```json
+{
+    "msg": "success",
+    "result": {
+        "chat_users": 10,//聊天人数
+        "chat_number": 10,//聊天次数
+        "que_list_count": 10,//答题人数
+        "avg_socre": 76.5//平均得分
+    },
+    "code": 200
+}
+```
+
+
+## 直播用户统计数据---平南-直播用户统计
+```
+GET  /api/v1/questionnaires/user_socre/{{id}}/
+```
+### 参数
+
+|名称|类型|是否必须|描述|
+|----|----|----|----|
+|id|`str`|是|直播id|
+
+### 返回
+```json
+{
+    "code": 200,
+    "msg": "success",
+    "result": [
+        {
+            "id": 870,
+            "user": 13328,//有因端用户id
+            "score": 20,//得分
+            "createDate": "2020-04-24T14:17:58.258471"//做题时间
+        },
+        {
+            "id": 871,
+            "user": 11551,
+            "score": 100,
+            "createDate": "2020-04-24T14:21:48.105995"
+        },
+        {
+            "id": 872,
+            "user": 264,
+            "score": 60,
+            "createDate": "2020-04-24T14:33:12.734543"
+        },
+        {
+            "id": 873,
+            "user": 6975,
+            "score": 50,
+            "createDate": "2020-04-24T14:33:41.770245"
+        },
+        {
+            "id": 874,
+            "user": 5628,
+            "score": 110,
+            "createDate": "2020-04-24T15:00:32.269405"
+        }
+    ]
+}
+```
