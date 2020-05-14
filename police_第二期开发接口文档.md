@@ -249,42 +249,42 @@ GET  /api/v1/analysis/police_analysis/{{id}}/
             {
                 "id": 4435,
                 "video_id": "406",//课程id
-                "socre": 5,//评分分数
+                "score": 5,//评分分数
                 "user_id": 11032,//评分人有因端userid
                 "username": "黄琨"//评分人昵称
             },
             {
                 "id": 4438,
                 "video_id": "406",
-                "socre": 5,
+                "score": 5,
                 "user_id": 9738,
                 "username": "鹿令卫"
             },
             {
                 "id": 4541,
                 "video_id": "406",
-                "socre": 5,
+                "score": 5,
                 "user_id": 13774,
                 "username": "胡春霖"
             },
             {
                 "id": 4572,
                 "video_id": "406",
-                "socre": 5,
+                "score": 5,
                 "user_id": 12685,
                 "username": "黄文斌"
             },
             {
                 "id": 4630,
                 "video_id": "406",
-                "socre": 5,
+                "score": 5,
                 "user_id": 13299,
                 "username": "陈磊"
             }
         ],
         "avg_mark": 5,//平均评分
-        "avg_socre": 76.5,//平均答题得分
-        "user_socre": [//答题具体数据
+        "avg_score": 76.5,//平均答题得分
+        "user_score": [//答题具体数据
             {
                 "id": 870,
                 "user": 13328,//答题人有因端userid
