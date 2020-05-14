@@ -3,7 +3,7 @@
 GET  /api/v1/questionnaires/pn/create_question/{{id}}/?auth={{auth}}
 ```
 ### 参数
-
+c
 |名称|类型|是否必须|描述|
 |----|----|----|----|
 |id|`str`|是|直播id|
@@ -238,17 +238,57 @@ GET  /api/v1/analysis/police_analysis/{{id}}/
 ### 返回
 ```json
 {
+    "msg": "success",
     "code": 200,
     "result": {
-        "chat_users": 10,//聊天人数
-        "chat_number": 10,//聊天数
-        "avg_socre": 76.5,//答题平均分
-        "respondents_count": 10,//答题人数
-        "user_socre": [
+        "mark_count": 5,//评分总次数
+        "respondents_count": 10,//答题总人数
+        "chat_users": 10,//聊天总人数
+        "chat_number": 10,//聊天总次数
+        "mark_data": [//评分具体数据
+            {
+                "id": 4435,
+                "video_id": "406",//课程id
+                "socre": 5,//评分分数
+                "user_id": 11032,//评分人有因端userid
+                "username": "黄琨"//评分人昵称
+            },
+            {
+                "id": 4438,
+                "video_id": "406",
+                "socre": 5,
+                "user_id": 9738,
+                "username": "鹿令卫"
+            },
+            {
+                "id": 4541,
+                "video_id": "406",
+                "socre": 5,
+                "user_id": 13774,
+                "username": "胡春霖"
+            },
+            {
+                "id": 4572,
+                "video_id": "406",
+                "socre": 5,
+                "user_id": 12685,
+                "username": "黄文斌"
+            },
+            {
+                "id": 4630,
+                "video_id": "406",
+                "socre": 5,
+                "user_id": 13299,
+                "username": "陈磊"
+            }
+        ],
+        "avg_mark": 5,//平均评分
+        "avg_socre": 76.5,//平均答题得分
+        "user_socre": [//答题具体数据
             {
                 "id": 870,
-                "user": 13328,//答题用户有因id
-                "score": 20,//得分
+                "user": 13328,//答题人有因端userid
+                "score": 20,//答题得分
                 "createDate": "2020-04-24T14:17:58.258471"
             },
             {
@@ -306,8 +346,7 @@ GET  /api/v1/analysis/police_analysis/{{id}}/
                 "createDate": "2020-05-01T12:01:52.222336"
             }
         ]
-    },
-    "msg": "success"
+    }
 }
 ```
 
